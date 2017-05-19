@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="cn.hlq.imagecompress.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本示例主要为大家展示目前LZ整合有关图片压缩比较好的例子Demo，大家可根据需要去挑选适合的~"/>
+
+    <Button
+        android:id="@+id/id_nanchen_default_compress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="浪~南尘的CompressHelper图片压缩"/>
+
+</LinearLayout>
