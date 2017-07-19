@@ -143,24 +143,28 @@ public class NanChenActivity extends Activity {
         long moreStart = System.currentTimeMillis();
         Log.e("HLQ_Struggle", "开始时间：" + moreStart);
         // 测试多张图片压缩
-        for (int i = 0; i < initImgsPath().size(); i++) {
-            File testEnd = CompressHelper.getDefault(getApplicationContext()).compressToFile(new File(initImgsPath().get(i)));
-            String end = "图片地址：" + initImgsPath().get(i) + "\n" + "图片大小：" + String.format("Size : %s", StringUtils.getReadableFileSize(new File(initImgsPath().get(i)).length())) + "\n" + "压缩后大小为：" + String.format("Size : %s", StringUtils.getReadableFileSize(testEnd.length())) + "\n";
-            if (i == 0) {
-                tvTestEnd1.setText(end);
+        try {
+            for (int i = 0; i < initImgsPath().size(); i++) {
+                File testEnd = CompressHelper.getDefault(getApplicationContext()).compressToFile(new File(initImgsPath().get(i)));
+                String end = "图片地址：" + initImgsPath().get(i) + "\n" + "图片大小：" + String.format("Size : %s", StringUtils.getReadableFileSize(new File(initImgsPath().get(i)).length())) + "\n" + "压缩后大小为：" + String.format("Size : %s", StringUtils.getReadableFileSize(testEnd.length())) + "\n";
+                if (i == 0) {
+                    tvTestEnd1.setText(end);
+                }
+                if (i == 1) {
+                    tvTestEnd2.setText(end);
+                }
+                if (i == 2) {
+                    tvTestEnd3.setText(end);
+                }
+                if (i == 3) {
+                    tvTestEnd4.setText(end);
+                }
+                if (i == 4) {
+                    tvTestEnd5.setText(end);
+                }
             }
-            if (i == 1) {
-                tvTestEnd2.setText(end);
-            }
-            if (i == 2) {
-                tvTestEnd3.setText(end);
-            }
-            if (i == 3) {
-                tvTestEnd4.setText(end);
-            }
-            if (i == 4) {
-                tvTestEnd5.setText(end);
-            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
         long moreEnd = System.currentTimeMillis();
         Log.e("HLQ_Struggle", "结束时间：" + moreEnd);
@@ -170,17 +174,11 @@ public class NanChenActivity extends Activity {
     private ArrayList<String> initImgsPath() {
         ArrayList<String> imgPath = new ArrayList<>();
         // HLQ测试图片地址
-//        imgPath.add("/storage/emulated/0/sougu/xlgg.png");
-//        imgPath.add("/storage/emulated/0/sougu/2017010601.png");
-//        imgPath.add("/storage/emulated/0/sougu/20170420102400.png");
-//        imgPath.add("/storage/emulated/0/sougu/2017021701.png");
-//        imgPath.add("/storage/emulated/0/DCIM/Camera/05227-1-13JW.png");
-        // 飞姐测试图片地址
-        imgPath.add("/storage/sdcard1/相册/子洋/1334979321390.jpg");
-        imgPath.add("/storage/sdcard1/相册/子洋/1334979322442.jpg");
-        imgPath.add("/storage/sdcard1/相册/子洋/1334979321730.jpg");
-        imgPath.add("/storage/sdcard1/相册/子洋/1334979322676.jpg");
-        imgPath.add("/storage/sdcard1/相册/子洋/1334979322962.jpg");
+        imgPath.add("/storage/emulated/0/sougu/xlgg.png");
+        imgPath.add("/storage/emulated/0/sougu/2017010601.png");
+        imgPath.add("/storage/emulated/0/sougu/20170420102400.png");
+        imgPath.add("/storage/emulated/0/sougu/2017021701.png");
+        imgPath.add("/storage/emulated/0/DCIM/Camera/05227-1-13JW.png");
         return imgPath;
     }
 

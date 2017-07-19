@@ -28,6 +28,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="注意，多张图片压缩时，图片地址写死，大家测试时替换成自己的即可~"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@android:color/holo_blue_bright"
                 android:padding="15dp"
                 android:text="使用默认方式进行压缩"/>
@@ -230,31 +236,37 @@
             android:background="@android:color/holo_blue_bright"
             android:padding="15dp"
             android:text="使用自定义方式进行压缩"/>
+
         <TextView
             android:id="@+id/id_more_img_test_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"/>
+
         <TextView
             android:id="@+id/id_more_img_test_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"/>
+
         <TextView
             android:id="@+id/id_more_img_test_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"/>
+
         <TextView
             android:id="@+id/id_more_img_test_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"/>
+
         <TextView
             android:id="@+id/id_more_img_test_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"/>
+
         <TextView
             android:id="@+id/id_more_img_test_end"
             android:layout_width="match_parent"

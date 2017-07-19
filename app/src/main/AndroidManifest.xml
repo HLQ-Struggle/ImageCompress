@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".activity.NanChenActivity">
         </activity>
+        <activity android:name=".activity.LubanActivity">
+        </activity>
     </application>
 
 </manifest>

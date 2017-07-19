@@ -11,12 +11,18 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="本示例主要为大家展示目前LZ整合有关图片压缩比较好的例子Demo，大家可根据需要去挑选适合的~"/>
+        android:text="本示例主要为大家展示目前LZ整合有关图片压缩Demo，大家可根据需要去挑选适合的~"/>
+
+    <Button
+        android:id="@+id/id_luban_compress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luban图片压缩 可能最接近为微信压缩"/>
 
     <Button
         android:id="@+id/id_nanchen_default_compress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="浪~南尘的CompressHelper图片压缩"/>
+        android:text="南尘的CompressHelper图片压缩"/>
 
 </LinearLayout>
