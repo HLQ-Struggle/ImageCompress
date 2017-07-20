@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import cn.hlq.imagecompress.activity.JpegActivity;
 import cn.hlq.imagecompress.activity.LubanActivity;
 import cn.hlq.imagecompress.activity.NanChenActivity;
 
@@ -25,6 +26,13 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(selfActivity, LubanActivity.class));
+            }
+        });
+        // 使用jpeg开启哈夫曼算法进行图片压缩
+        findViewById(R.id.id_jpeg_compress).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(selfActivity, JpegActivity.class));
             }
         });
         // 使用南尘提供图片压缩方式

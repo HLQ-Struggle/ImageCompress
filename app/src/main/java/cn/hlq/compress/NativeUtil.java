@@ -20,8 +20,8 @@ public class NativeUtil {
      * 加载lib下两个so文件
      */
     static {
-        System.loadLibrary("libhlqjpeg");
         System.loadLibrary("hlqImgCompress");
+        System.loadLibrary("jpegbither");
     }
 
     /**

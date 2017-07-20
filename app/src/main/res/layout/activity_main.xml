@@ -14,15 +14,37 @@
         android:text="本示例主要为大家展示目前LZ整合有关图片压缩Demo，大家可根据需要去挑选适合的~"/>
 
     <Button
+        android:id="@+id/id_img_compress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="常见压缩"/>
+
+    <Button
         android:id="@+id/id_luban_compress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Luban图片压缩 可能最接近为微信压缩"/>
 
     <Button
+        android:id="@+id/id_jpeg_compress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微信压缩 jpeg压缩"/>img
+
+    <Button
         android:id="@+id/id_nanchen_default_compress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="南尘的CompressHelper图片压缩"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:padding="15dp"
+        android:text="LZ CSDN地址：http://blog.csdn.net/u012400885"
+        android:textColor="#FF0000"
+        android:textSize="18sp"/>
 
 </LinearLayout>

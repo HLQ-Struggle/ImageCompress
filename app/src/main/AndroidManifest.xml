@@ -23,6 +23,8 @@
         </activity>
         <activity android:name=".activity.LubanActivity">
         </activity>
+        <activity android:name=".activity.JpegActivity">
+        </activity>
     </application>
 
 </manifest>

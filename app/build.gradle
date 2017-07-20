@@ -26,6 +26,6 @@ dependencies {
     })
     compile 'com.android.support.constraint:constraint-layout:1.0.1'
     compile 'com.github.nanchen2251:CompressHelper:1.0.5'
-    testCompile 'junit:junit:4.12'
     compile 'top.zibin:Luban:1.1.2'
+    testCompile 'junit:junit:4.12'
 }
