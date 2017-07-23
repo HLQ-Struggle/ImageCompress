@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:padding="15dp"
+    android:scrollbars="none"
+    tools:context="cn.hlq.imagecompress.activity.HlqActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/id_hlq_choose_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选取图片"/>
+
+        <ImageView
+            android:id="@+id/id_hlq_choose_show"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="#FDE"/>
+
+        <TextView
+            android:id="@+id/id_hlq_choose_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="选取图片大小："
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="质量压缩"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/id_hlq_choose_zl_pic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="#FAD"/>
+
+        <TextView
+            android:id="@+id/id_hlq_choose_zl_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="压缩后大小："
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="尺寸压缩"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/id_hlq_choose_cc_pic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="#F00012"/>
+
+        <TextView
+            android:id="@+id/id_hlq_choose_cc_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="压缩后大小："
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="采样率压缩"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/id_hlq_choose_cyl_pic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="#F55555"/>
+
+        <TextView
+            android:id="@+id/id_hlq_choose_cyl_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="压缩后大小："
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</ScrollView>

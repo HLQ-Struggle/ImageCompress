@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import cn.hlq.imagecompress.activity.HlqActivity;
 import cn.hlq.imagecompress.activity.JpegActivity;
 import cn.hlq.imagecompress.activity.LubanActivity;
 import cn.hlq.imagecompress.activity.NanChenActivity;
@@ -21,6 +22,13 @@ public class MainActivity extends Activity {
     }
 
     private void initView() {
+        // 常见压缩
+        findViewById(R.id.id_img_compress).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(selfActivity, HlqActivity.class));
+            }
+        });
         // 使用Luban压缩
         findViewById(R.id.id_luban_compress).setOnClickListener(new View.OnClickListener() {
             @Override

@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".activity.JpegActivity">
         </activity>
+        <activity android:name=".activity.HlqActivity">
+        </activity>
     </application>
 
 </manifest>

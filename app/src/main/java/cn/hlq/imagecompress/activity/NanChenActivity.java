@@ -174,11 +174,11 @@ public class NanChenActivity extends Activity {
     private ArrayList<String> initImgsPath() {
         ArrayList<String> imgPath = new ArrayList<>();
         // HLQ测试图片地址
-        imgPath.add("/storage/emulated/0/sougu/xlgg.png");
-        imgPath.add("/storage/emulated/0/sougu/2017010601.png");
-        imgPath.add("/storage/emulated/0/sougu/20170420102400.png");
-        imgPath.add("/storage/emulated/0/sougu/2017021701.png");
-        imgPath.add("/storage/emulated/0/DCIM/Camera/05227-1-13JW.png");
+        imgPath.add("/storage/emulated/0/DCIM/Camera/IMG_20170703_144715.jpg");
+        imgPath.add("/storage/emulated/0/DCIM/Camera/IMG_20170414_125420.jpg");
+        imgPath.add("/storage/emulated/0/HLQ_test_pic/IMG_20170427_125301_1_1.jpg");
+        imgPath.add("/storage/emulated/0/HLQ_test_pic/Screenshot_20170525-165109.jpg");
+        imgPath.add("/storage/emulated/0/HLQ_test_pic/IMG_20170404_160055.jpg");
         return imgPath;
     }
 
