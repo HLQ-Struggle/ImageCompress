@@ -1,8 +1,9 @@
-# ImageCompress
-总结常用较好图片压缩
+##总结Android图片压缩方式
 
-目前已添加南尘提供CompressHelper。
+包含质量压缩 采样率压缩 比例压缩 jpeg压缩 Luban压缩 以及 jpeg压缩。
 
-南尘GitHub地址：https://github.com/nanchen2251/CompressHelper 
+具体博文详情地址如下：
 
-后续完毕会更新具体博文。
+http://blog.csdn.net/u012400885/article/details/72235451
+
+欢迎大家查阅~
